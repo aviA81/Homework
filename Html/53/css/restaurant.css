@@ -1,0 +1,21 @@
+body {
+    text-align: center;
+    color: OrangeRed;
+    background-color: DarkBlue;
+    border: 1.25em groove OrangeRed;
+}
+
+a {
+    background-color: aliceblue;
+    border: 2px solid black;
+}
+header img{
+width: 2em;
+}
+header{
+    font-size:4em;
+    border: 3px solid gold;
+}
+header a{
+    font-size: 1rem;
+}
