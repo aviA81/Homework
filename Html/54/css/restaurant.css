@@ -1,0 +1,55 @@
+html {
+    background-color: Gold;
+}
+
+body {
+    text-align: center;
+    color: OrangeRed;
+    background-color: DarkBlue;
+    border: 1.25em groove OrangeRed;
+    border-radius: 35px;
+
+    max-width: 800px;
+    margin: auto;
+}
+
+a {
+    background-color: aliceblue;
+    border: 2px solid black;
+    text-decoration: none;
+    padding: 1.5px;
+}
+
+a:visited {
+    color: purple;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: LightSkyBlue;
+}
+
+a:active {
+    color: DarkSlateGray;
+}
+
+header img {
+    width: 4rem;
+}
+
+header {
+    font-size: 2rem;
+    border: 3px solid gold;
+    margin: 2rem;
+    padding: 3px;
+}
+
+header a {
+    font-size: 1rem;
+}
+
+.logo {
+    text-shadow: -4px -3px 3px DeepSkyBlue;
+    transform: skewX(5deg);
+
+}
