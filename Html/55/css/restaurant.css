@@ -43,6 +43,7 @@ header {
     border: 3px solid gold;
     margin: 2rem;
     padding: 3px;
+    border-radius: 5px;
 }
 
 header a {
@@ -52,5 +53,4 @@ header a {
 .logo {
     text-shadow: -4px -3px 3px DeepSkyBlue;
     transform: skewX(5deg);
-
 }

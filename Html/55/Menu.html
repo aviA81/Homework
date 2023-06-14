@@ -22,11 +22,25 @@
         }
 
         div img {
-
             display: block;
+            object-position: center;
+            text-align: center;
+            padding-bottom: 6px;
+        }
+
+        .itemhead{
+            color: yellow;
+            font-size: 1.5rem;
+            margin-top: 18px;
+            margin-bottom: 18px;
+        }
+
+        ul, li {
+        display: inline;
+        padding: 0
         }
     </style>
-</head>
+    </head>
 
 <body>
     <header>
@@ -38,21 +52,24 @@
     </header>
     <h1>Classic Coney Island Menu</h1>
     <h2>Coney Island Classics</h2>
-    <nav>
+    <ul>
+        <li>
+            <div>
+                <h3 class="itemhead">The Classic Coney Island</h3>
+                <img src="Pictures/330px-Detroit_Coney.jpg" alt="image of hot dog could not be displayed" height="150">
+                <a href="Menu Items\The Classic Coney Island.html">Click here for more info</a>
+            </div>
+        </li>
         <div>
-
-            <img src="Pictures/330px-Detroit_Coney.jpg" alt="image of hot dog could not be displayed" height="150">
-            <a href="Menu Items\The Classic Coney Island.html">The Classic Coney Island</a>
-        </div>
-        <div>
-            <a href="Menu Items/The Coney Burger.html">The Coney Burger</a>
-            <!--img src="Pictures/Coney burger.jpg" alt="image of burger could not be displayed" height="150"-->
+            <h3 class="itemhead">The Coney Burger</h3>
+            <img src="Pictures/Coney burger.jpg" alt="image of burger could not be displayed" height="150">
+            <a href="Menu Items/The Coney Burger.html">Click here for more info</a>
         </div>
         <div>
             <a href="">The Classic New Yorker</a>
         </div>
         <a href="index.html">Home</a>
-    </nav>
+    </ul>
 </body>
 
 </html>
