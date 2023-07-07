@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query HW</title>
+    <style>
+        body {
+            display: grid;
+            gap: 3px;
+            grid-auto-columns: 100px;
+            grid-auto-rows: 100px;
+        }
+
+        div {
+            background-color: orange;
+            transition-duration: 1.5s;
+        }
+
+        @media (width >=600px) {
+            div {
+                background-color: aquamarine;
+                transition-duration: 1.5s;
+            }
+
+            body {
+                grid-template-areas:
+                    "one  one";
+
+                grid-template-columns: 100px 100px;
+            }
+
+            div:nth-child(1) {
+                grid-area: one;
+            }
+        }
+
+        @media (width >=900px) {
+            body {
+                grid-template-columns: repeat(4, 100px);
+            }
+
+            div {
+                background-color: brown;
+            }
+
+            div:nth-child(1) {
+                grid-column: span 2;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div>1</div>
+    <div>2</div>
+    <div>3</div>
+    <div>4</div>
+    <div>5</div>
+    <div>6</div>
+    <div>7</div>
+</body>
+
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fancy Picture 2</title>
+    <style>
+        body {
+            display: grid;
+            justify-content: center;
+            grid-template-areas:
+                ".      top    top    ."
+                "right  one    two    left"
+                "right  three  four   left"
+                ".      bottom bottom .";
+            grid-template-columns: 200px 20px 20px 200px;
+            grid-template-rows: 200px 20px 20px 200px;
+        }
+
+        div:nth-child(1) {
+            grid-area: top;
+            background-color: red;
+        }
+
+        div:nth-child(2) {
+            grid-area: right;
+            background-color: purple;
+        }
+
+        div:nth-child(3) {
+            grid-area: left;
+            background-color: green;
+        }
+
+        div:nth-child(4) {
+            grid-area: bottom;
+            background-color: brown;
+        }
+
+        div:nth-child(5) {
+            grid-area: one;
+            background-color: red;
+        }
+
+        div:nth-child(6) {
+            grid-area: three;
+            background-color: purple;
+        }
+
+        div:nth-child(7) {
+            grid-area: two;
+            background-color: green;
+        }
+
+        div:nth-child(8) {
+            grid-area: four;
+            background-color: brown;
+        }
+    </style>
+</head>
+
+<body>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+</body>
+
+</html>
